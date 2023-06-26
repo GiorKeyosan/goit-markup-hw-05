@@ -874,7 +874,7 @@ color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
 .check-text span {
 
-display: inline-flex;
+/* display: inline-flex; */
    align-items: center;
    justify-content: center;
    fill: transparent;
@@ -897,6 +897,7 @@ display: inline-flex;
 }
 
 .policy-span {
+
     display: inline-flex;
     
         fill: #F4F4FD;
