@@ -637,7 +637,7 @@ font-weight: 700;
                 font-family: Roboto;
                 line-height: 24px;
                 letter-spacing: 0.48px;
-                padding-top: 8px;
+              
 }
 
 .subscribe-input::placeholder {
@@ -646,7 +646,7 @@ font-weight: 700;
         font-family: Roboto;
         line-height: 24px;
         letter-spacing: 0.48px;
-       padding-top: 8px;
+       
        
 }
 
