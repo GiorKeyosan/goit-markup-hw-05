@@ -636,10 +636,10 @@ font-weight: 700;
             color: var(--white, #FFF);
                 font-size: 12px;
                 font-family: Roboto;
-                line-height: 24px;
+                
                 letter-spacing: 0.48px;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-              
+            line-height: 1.5;
 }
 
 .subscribe-input::placeholder {
@@ -657,7 +657,8 @@ font-weight: 700;
 }
 
 .subscribe-submit-button {
-width: 165px;
+    font-family: "Roboto", sans-serif;
+min-width: 165px;
 height: 40px;
 color: var(--white, #FFF);
     text-align: center;
@@ -668,20 +669,24 @@ color: var(--white, #FFF);
     letter-spacing: 0.04em;
     border-radius: 4px;
         background: #4D5AE5;
-        display: inline-flex;
+        
             padding-left: 24px;
-            position: relative;
+            
                 display: flex;
             align-items: center;
+            cursor: pointer;
+            border: none;
+            justify-content: center;
     
 }
 
 .subscribe-icon {
     fill: #FFFFFF;
-    position: absolute;
+    
     right: 24px;
-        top: 50%;
-        transform: translateY(-50%);
+      
+        margin-left: 16px;
+        
 
 }
 /* ---------------BACKDROP------------------ */
@@ -865,7 +870,7 @@ color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     color: #8E8F99;
         font-size: 12px;
         font-family: Roboto;
-        line-height: 14px;
+        line-height: 1.17;
         letter-spacing: 0.48px;
 }
 .check-text span {
@@ -892,16 +897,19 @@ color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
 
 .policy-span {
-     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        
+        fill: #F4F4FD;
         display: inline-flex;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-check:checked +.check-text .check-text {
-    background-color: var(--company-blue-color);
+.input-check:checked +.check-text .check-icon {
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
+
+
 .is-hidden {
 visibility: hidden;
 opacity: 0;
