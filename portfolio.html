@@ -421,26 +421,24 @@
           <p class="subscribe-text">Subscribe</p>
           <form class="footer-form">
             <label
+              class="subscribe-label"
               for="footer-email"
               aria-label="footer-email"
-            ></label>
+            >
+              <input
+                class="subscribe-input"
+                type="email"
+                name="footer-email"
+                id="footer-email"
+                placeholder="E-mail"
+              />
+            </label>
 
-            <input
-              class="subscribe-input"
-              type="email"
-              name="footer-email"
-              id="footer-email"
-              placeholder="E-mail"
-            />
-
-            <div class="submit-button-container">
-              <button
-                class="subscribe-submit-button"
-                type="submit"
-              >
-                Subscribe
-              </button>
-
+            <button
+              class="subscribe-submit-button"
+              type="submit"
+            >
+              Subscribe
               <svg
                 class="subscribe-icon"
                 width="24"
@@ -450,7 +448,7 @@
                   href="./images/icons.svg#icon-subscribe"
                 ></use>
               </svg>
-            </div>
+            </button>
           </form>
         </div>
       </div>
