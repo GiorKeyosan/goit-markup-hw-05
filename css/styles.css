@@ -864,7 +864,6 @@ color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
  }
 
 .check-text {
-    display:flex;
     align-items: center;
     color: #8E8F99;
         font-size: 12px;
