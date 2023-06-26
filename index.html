@@ -637,10 +637,43 @@
         </div>
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
+          <form class="footer-form">
+            <label
+              for="footer-email"
+              aria-label="footer-email"
+            ></label>
+
+            <input
+              class="subscribe-input"
+              type="email"
+              name="footer-email"
+              id="footer-email"
+              placeholder="E-mail"
+            />
+
+            <div class="submit-button-container">
+              <button
+                class="subscribe-submit-button"
+                type="submit"
+              >
+                Subscribe
+              </button>
+
+              <svg
+                class="subscribe-icon"
+                width="24"
+                height="24"
+              >
+                <use
+                  href="./images/icons.svg#icon-subscribe"
+                ></use>
+              </svg>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button
           type="button"
@@ -751,8 +784,8 @@
               id="policy"
               value="true"
             />
-            <label for="policy" class="check-text"
-              ><span
+            <label for="policy" class="check-text">
+              <span
                 ><svg
                   class="check-icon"
                   width="10"
@@ -760,8 +793,10 @@
                 >
                   <use
                     href="./images/icons.svg#icon-check"
-                  ></use></svg></span
-              >I accept the terms and conditions of the&#160
+                  ></use>
+                </svg> </span
+              >I accept the terms and conditions of
+              the&nbsp;
               <a href="#">Privacy Policy</a></label
             >
           </div>
